@@ -12,12 +12,6 @@ It helps users learn about password security while practicing **Python web devel
 
 ---
 
-## 🎬 Demo
-![Password Strength Demo](screenshots/demo.gif)  
-*Replace `demo.gif` with your own recorded GIF of typing a password and seeing the result.*
-
----
-
 ## 🚀 Features
 - Real-time password strength analysis  
 - Categorizes passwords as **Weak**, **Medium**, or **Strong**  
@@ -29,33 +23,43 @@ It helps users learn about password security while practicing **Python web devel
 
 ## 🛠 Installation
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/atuli93/Password-Strength-Checker.git
-cd Password-Strength-Checker
+1. Clone the repository
+   ```bash
+   git clone https://github.com/atuli93/Password-Strength-Checker.git
+   cd Password-Strength-Checker
+   ```
 
+2. Set up a virtual environment
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate   # Linux/Mac
+   .venv\Scripts\activate      # Windows
+   ```
 
-### 2️⃣ Set up a virtual environment
-```bash
-python3 -m venv .venv
-source .venv/bin/activate   # Linux/Mac
-.venv\Scripts\activate      # Windows
+3. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### 3️⃣ Install dependencies
-```bash
-pip install -r requirements.txt
+```
 
 ## ▶️ Usage
 
 Run the Flask app:
-```bash
-python app.py
+
+   ```bash
+   python app.py
+   ```
+
+```
 
 Open your browser and visit:  
 👉 [http://127.0.0.1:5000](http://127.0.0.1:5000)  
 
 Type a password to see its strength immediately.
 
+
+```
 
 ## 🧰 Tech Stack
 - Python 3.11
@@ -67,6 +71,7 @@ Type a password to see its strength immediately.
 ---
 
 ## 📂 Project Structure
+```
 password-strength-checker/
 ├── app.py                 # Main Flask application
 ├── password_checker.py    # Password strength logic
@@ -77,9 +82,9 @@ password-strength-checker/
 │   └── style.css          # CSS styling
 ├── screenshots/           # Screenshots and demo GIF
 └── README.md              # Project documentation
+```
 
-
----
+```
 
 ## 🖼 Screenshots
 
