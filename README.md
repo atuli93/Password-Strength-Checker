@@ -41,25 +41,19 @@ It helps users learn about password security while practicing **Python web devel
    pip install -r requirements.txt
    ```
 
-```
 
 ## ▶️ Usage
 
-Run the Flask app:
-
+1. Run the Flask app:
    ```bash
    python app.py
    ```
-
-```
 
 Open your browser and visit:  
 👉 [http://127.0.0.1:5000](http://127.0.0.1:5000)  
 
 Type a password to see its strength immediately.
 
-
-```
 
 ## 🧰 Tech Stack
 - Python 3.11
@@ -84,7 +78,6 @@ password-strength-checker/
 └── README.md              # Project documentation
 ```
 
-```
 
 ## 🖼 Screenshots
 
@@ -94,7 +87,9 @@ password-strength-checker/
 **Password Strength Result**  
 ![Password Strength Result](screenshots/result.png)
 
+
 ---
+
 
 ## 📜 License
 
@@ -103,11 +98,13 @@ See [LICENSE](LICENSE) for details.
 
 ---
 
+
 ## 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss.
 
 ---
+
 
 ## 💡 About
 
